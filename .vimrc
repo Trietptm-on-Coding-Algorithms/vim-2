@@ -4,7 +4,7 @@ inoremap jk <ESC>
 " Basic Settings
 filetype indent on
 
-shiftwidth 2
+set shiftwidth=2
 set hidden
 set tabstop=4
 set expandtab
