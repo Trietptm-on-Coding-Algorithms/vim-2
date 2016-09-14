@@ -28,4 +28,5 @@ set nolist
 set mps+=<:>
 
 " Aesthetics
-set background=light
+set background=dark
+color slate
