@@ -7,6 +7,7 @@ filetype indent on
 set shiftwidth=2
 set hidden
 set tabstop=4
+set textwidth=80
 set expandtab
 set nocompatible
 set autoindent
@@ -28,5 +29,12 @@ set nolist
 set mps+=<:>
 
 " Aesthetics
-set background=dark
-color slate
+set background=light
+colorscheme nord
+
+" Plugins
+call plug#begin('~/.vim/autoload')
+
+Plug 'arcticicestudio/nord-vim'
+
+call plug#end()
