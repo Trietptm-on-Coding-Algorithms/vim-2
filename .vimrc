@@ -32,9 +32,20 @@ set mps+=<:>
 set background=light
 colorscheme nord
 
+
+let g:lightline = {
+      \ 'colorscheme': 'nord',
+      \ }
+
+set laststatus=2
+
 " Plugins
 call plug#begin('~/.vim/autoload')
 
+" Terminal theme
 Plug 'arcticicestudio/nord-vim'
+
+" lightline status bar
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
